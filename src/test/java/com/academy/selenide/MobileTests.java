@@ -43,7 +43,7 @@ public class MobileTests {
         $(byId("lname")).sendKeys("LastName");
         $(byId("FEMALE")).click();
         $(byId("age")).clear();
-        $(byId("age1")).sendKeys("18");
+        $(byId("age")).sendKeys("18");
         $(byCssSelector(".btn.btn-success")).click();
         sleep(3000);
 
